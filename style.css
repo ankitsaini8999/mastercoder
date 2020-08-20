@@ -17,7 +17,7 @@ main {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(0,0,0,.5),rgba(0,0,0,.5)), url(img/lap.jpg) center no-repeat;
+  background: linear-gradient(45deg, rgba(0,0,0,.5),rgba(0,0,0,.5)), url(lap.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -96,7 +96,7 @@ main .nav-menu .change .line3 {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: url(img/mylogo.png) center no-repeat;
+  background: url(mylogo.png) center no-repeat;
   background-size: cover;
   top: 0;
   left: 10%;
@@ -165,7 +165,7 @@ main .roter{
   width: 100vw;
   height: 100vh;
   position: relative;
-  background: url(img/page.jpg) center no-repeat;
+  background: url(page.jpg) center no-repeat;
   background-size: cover;
 }
 .head-text{
@@ -178,7 +178,7 @@ main .roter{
 .info{
   width: 80vw;
   height: 80vh;
-  background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(img/art.jpg) center no-repeat;
+  background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(art.jpg) center no-repeat;
   background-size: cover;
   position: absolute; 
   top: 50%;
@@ -208,13 +208,13 @@ main .roter{
   width: 100vw;
   height: 100vh;
   position: relative;
-  background: url(img/coll.jpg) center no-repeat;
+  background: url(coll.jpg) center no-repeat;
   background-size: cover;
 }
 .proj-box{
   width: 230px;
-  height: 180px;  /*180px*/
-  background: url(img/page.jpg) center no-repeat;
+  height: 180px;
+  background: url(page.jpg) center no-repeat;
   background-size: cover;
   transition: all .3s ease-in;
   cursor: pointer;
@@ -282,7 +282,7 @@ main .roter{
 .image{
   width: 100%;
   height: 50%;
-  background: url(img/bake.jpg) center no-repeat;
+  background: url(coll.jpg) center no-repeat;
   background-size: cover;
   opacity: 0;
   border-radius: 25px 25px 0 0;
@@ -342,35 +342,35 @@ main .roter{
   grid-column: 2/4;
 }
 .img1{
-  background: url(img/city.jpg) center no-repeat;
+  background: url(lap.jpg) center no-repeat;
   background-size: cover;
 }
 .img2{
-  background: url(img/cpc2.jpg) center no-repeat;
+  background: url(cpc2.jpg) center no-repeat;
   background-size: cover;
 }
 .img3{
-  background: url(img/cpc.jpg) center no-repeat;
+  background: url(cpc.jpg) center no-repeat;
   background-size: cover;
 }
 .img4{
-  background: url(img/cpc1.jpg) center no-repeat;
+  background: url(cpc1.jpg) center no-repeat;
   background-size: cover;
 }
 .img5{
-  background: url(img/glap.jpg) center no-repeat;
+  background: url(glap.jpg) center no-repeat;
   background-size: cover;
 }
 .img6{
-  background: url(img/gpc.jpg) center no-repeat;
+  background: url(gpc.jpg) center no-repeat;
   background-size: cover;
 }
 .img7{
-  background: url(img/gpc1.jpg) center no-repeat;
+  background: url(gpc1.jpg) center no-repeat;
   background-size: cover;
 }
 .img8{
-  background: url(img/gpc2.jpg) center no-repeat;
+  background: url(gpc2.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -378,7 +378,7 @@ main .roter{
   width: 100vw;
   height: 100vh;
   position: relative;
-  background: url(img/plant.jpg) center no-repeat;
+  background: url(plant.jpg) center no-repeat;
   background-size: cover;
 }
 .cont5 .head-text{
@@ -409,42 +409,42 @@ main .roter{
   width: 300px;
 }
 .cust-img1{
-  background: url(img/cake2.jpg) center no-repeat;
+  background: url(coll.jpg) center no-repeat;
   background-size: cover;
   position: absolute;
   left: 50%;
   transform: translate(-50%,0);
 }
 .cust-img2{
-  background: url(img/cake5.jpg) center no-repeat;
+  background: url(cpc.jpg) center no-repeat;
   background-size: cover;
   position: absolute;
   left: 50%;
   transform: translate(-50%,0);
 }
 .cust-img3{
-  background: url(img/cake10.jpg) center no-repeat;
+  background: url(cpc1.jpg) center no-repeat;
   background-size: cover;
   position: absolute;
   left: 50%;
   transform: translate(-50%,0);
 }
 .cust-img4{
-  background: url(img/cake6.jpg) center no-repeat;
+  background: url(cpc.jpg) center no-repeat;
   background-size: cover;
   position: absolute;
   left: 50%;
   transform: translate(-50%,0);
 }
 .cust-img5{
-  background: url(img/cake7.jpg) center no-repeat;
+  background: url(cpc1.jpg) center no-repeat;
   background-size: cover;
   position: absolute;
   left: 50%;
   transform: translate(-50%,0);
 }
 .cust-img6{
-  background: url(img/cake4.jpg) center no-repeat;
+  background: url(cpc.jpg) center no-repeat;
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -485,7 +485,7 @@ main .roter{
   width: 100vw;
   height: 100vh;
   position: relative;
-  background: url(img/cpc.jpg) center no-repeat;
+  background: url(cpc.jpg) center no-repeat;
   background-size: cover;
 }
 .social-box{
@@ -592,28 +592,3 @@ main .roter{
   display: none;
 }
 }
-
-
-/*$(document).ready(function() {
-  // Check if element is scrolled into view
-  function isScrolledIntoView(elem) {
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-  }
-  // If element is scrolled into view, fade it in
-  $(window).scroll(function() {
-    $('.scroll-animations .animated').each(function() {
-      if (isScrolledIntoView(this) === true) {
-        $(this).addClass('fadeInLeft');
-      }
-      else{
-        $(this).removeClass('fadeInLeft');
-        }
-    });
-  });
-});*/
